@@ -1,0 +1,6 @@
+
+| Autor                                                                               | Objetivo Principal                                             | Algoritmo                                   | Lacuna                                                   |
+| ----------------------------------------------------------------------------------- | -------------------------------------------------------------- | ------------------------------------------- | -------------------------------------------------------- |
+| Jobeda Jamal Khanam, Simon Y. Foo (2021)\|                                          | Comparar modelos de machine learning para detecção de diabetes | Logistic Regression, Support Vector Machine | Não compara com modelos mais avançados                   |
+| T. Vafeiadis a, K.I. Diamantaras b, G. Sarigiannidis a, K.Ch. Chatzisavvas a (2015) | Comparar modelos de machine learning para detecção de spam     | KNN, Logistic Regression, Linear Regression | Não utiliza de modelos mais recentes, como redes neurais |
+| Gabriel (2026)                                                                      | Compara modelos de machine learning / redes neurais ...        | Redes Neurais                               | Não utiliza modelos de Deep Learning                     |

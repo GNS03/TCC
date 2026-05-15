@@ -1,0 +1,268 @@
+{
+  "main": {
+    "id": "d553b269b2954875",
+    "type": "split",
+    "children": [
+      {
+        "id": "6113f6f17c9fddcd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "eb206c2621dc5a5f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Aula 5 - Ferramentas.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Aula 5 - Ferramentas"
+            }
+          },
+          {
+            "id": "b4eaf48f751f860f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Aula 5 - Referencial Teórico - Exercicio (Entregar).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Aula 5 - Referencial Teórico - Exercicio (Entregar)"
+            }
+          },
+          {
+            "id": "335894d620930085",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Aula 5 - Referencial Teórico - Exercicio (Entregar).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Aula 5 - Referencial Teórico - Exercicio (Entregar)"
+            }
+          },
+          {
+            "id": "b62b6adfd7a1b10c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Aula 5 - Referencial Teórico - Exercicio (Entregar).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Aula 5 - Referencial Teórico - Exercicio (Entregar)"
+            }
+          },
+          {
+            "id": "eff92bb3d35b2e57",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Aula 1 - Estilo de Pesquisa.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Aula 1 - Estilo de Pesquisa"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "6d21d2bb40aa3b7c",
+    "type": "split",
+    "children": [
+      {
+        "id": "061b141c56041719",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c13bcbe807a2793a",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "cce16e018f7d9146",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "271b67a6351beeba",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "40ed59899ef2c068",
+    "type": "split",
+    "children": [
+      {
+        "id": "8c6ff409c83ff827",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "66a7a88516a720c1",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Aula 5 - Exercicio.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Aula 5 - Exercicio"
+            }
+          },
+          {
+            "id": "ee351ac961575693",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Aula 5 - Exercicio.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Aula 5 - Exercicio"
+            }
+          },
+          {
+            "id": "376371dc4054663c",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "1211de4cf7acc022",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "248d4a6db875a877",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Aula 5 - Exercicio.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Aula 5 - Exercicio"
+            }
+          },
+          {
+            "id": "d935f7134d204abf",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "376371dc4054663c",
+  "lastOpenFiles": [
+    "Untitled.canvas",
+    "Aula 1 - Estilo de Pesquisa.md",
+    "Aula 6.md",
+    "Aula 3 - Tema.md",
+    "Aula 4 - Plagio.md",
+    "Aula 5 - Ferramentas.md",
+    "Aula 5 - Referencial Teórico - Exercicio (Entregar).md",
+    "Notas.md",
+    "Aula 2 - Trabalhos Correlatos.md",
+    "Trabalhos Relacionados (Entregar).md",
+    "Welcome.md"
+  ]
+}
