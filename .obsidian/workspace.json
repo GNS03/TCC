@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Aula 1 - Estilo de Pesquisa.md",
+                "file": "Aula 6.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Aula 1 - Estilo de Pesquisa"
+              "title": "Aula 6"
             }
           }
         ],
@@ -251,10 +251,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "376371dc4054663c",
+  "active": "eff92bb3d35b2e57",
   "lastOpenFiles": [
-    "Untitled.canvas",
     "Aula 1 - Estilo de Pesquisa.md",
+    "Untitled.canvas",
     "Aula 6.md",
     "Aula 3 - Tema.md",
     "Aula 4 - Plagio.md",

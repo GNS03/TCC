@@ -33,3 +33,5 @@
 	- Dados (limitações)
    
 9. Como a arquitetura e tecnologias permitem manutenibilidade e escalabilidade do seu projeto no futuro
+	- Python facilita a manutenibilidade (codigo facil de ler e modificar, permite a utilizacao de diversas bibliotecas) e escalabilidade
+	- O modelo escala para outras bases
