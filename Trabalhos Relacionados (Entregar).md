@@ -27,7 +27,7 @@ Unsupervised
 
 Supervised
 	Perceptron
-		MultiLayerPerceptron (David E. Rumelhari*, Geoffrey E. Hintont & Ronald J. Williams*)
+		MultiLayerPerceptron (David E. Rumelhari, Geoffrey E. Hintont & Ronald J. Williams)
 
 ## 2.3 Python aplicado ao Machine Learning
 
