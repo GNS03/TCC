@@ -1,5 +1,5 @@
 1. Titulo Provisório
-	1. Comparação de modelos de machine learning para prever ...
+	1. Comparação de modelos de machine learning para prever o numero de bebidas alcoólicas consumidas por dia, por pessoas com problema de fígado.
 	   
 2. Objetivo Geral (verbo infinitivo)
 	1. Comparar os modelos selecionados e definir qual se adapta melhor ao problema
@@ -17,7 +17,7 @@
 6. De acordo com os pilares (exec 4), relacione-os justificando sua utilização no desenvolvimento
 	- A área de Machine Learning tem evoluído cada vez mais com a utilização de linguagens de programação mais avançadas e computadores modernos, a partir dessas evoluções é possível utilizar ml para diversas tarefas, entre elas, classificar dados, porém há diversas maneiras de se alcançar um mesmo resultado, por isso é importante comparar a performance dos modelos diante de uma mesma base de dados.
 	  
-	  - Algoritmos de classificação
+	- Algoritmos de classificação
 	  
 	- Python é a linguagem principal, na esfera global, em questão de processamento de dados e machine learning, logo ao desenvolver um modelo de ml em python, é possível ter acesso a vários recursos, que facilitam na criação e utilização dos modelos, tanto teóricos (documentação, cursos e tutoriais, exemplos, entre outros), quanto práticos (simplicidade da linguagem, alta quantidade de bibliotecas auxiliares ao processo).
    
@@ -33,5 +33,5 @@
 	- Dados (limitações)
    
 9. Como a arquitetura e tecnologias permitem manutenibilidade e escalabilidade do seu projeto no futuro
-	- Python facilita a manutenibilidade (codigo facil de ler e modificar, permite a utilizacao de diversas bibliotecas) e escalabilidade
+	- Python facilita a manutenibilidade (código fácil de ler e modificar, permite a utilização de diversas bibliotecas) e escalabilidade
 	- O modelo escala para outras bases
