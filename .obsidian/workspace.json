@@ -8,105 +8,51 @@
         "type": "tabs",
         "children": [
           {
-            "id": "eb206c2621dc5a5f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Aula 5 - Ferramentas.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Aula 5 - Ferramentas"
-            }
-          },
-          {
-            "id": "b4eaf48f751f860f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Aula 5 - Referencial Teórico - Exercicio (Entregar).md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Aula 5 - Referencial Teórico - Exercicio (Entregar)"
-            }
-          },
-          {
-            "id": "335894d620930085",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Aula 5 - Referencial Teórico - Exercicio (Entregar).md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Aula 5 - Referencial Teórico - Exercicio (Entregar)"
-            }
-          },
-          {
             "id": "b62b6adfd7a1b10c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Aula 5 - Referencial Teórico - Exercicio (Entregar).md",
+                "file": "Trabalhos Relacionados (Entregar).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Aula 5 - Referencial Teórico - Exercicio (Entregar)"
+              "title": "Trabalhos Relacionados (Entregar)"
+            }
+          }
+        ]
+      },
+      {
+        "id": "d0f2d0b2093d795f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c3260f65b0396afa",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Trabalhos Relacionados/Classification_tech.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "Classification_tech"
             }
           },
           {
-            "id": "eff92bb3d35b2e57",
+            "id": "d8ff195a1132b860",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "pdf",
               "state": {
-                "aFile": ".obsidian/workspace.json",
-                "bFile": ".obsidian/workspace.json",
-                "aRef": ""
+                "file": "Trabalhos Relacionados/DBSCAN.pdf"
               },
-              "icon": "diff",
-              "title": "Diff: workspace.json  (Working Tree)"
-            }
-          },
-          {
-            "id": "1e33b2631a46b17f",
-            "type": "leaf",
-            "state": {
-              "type": "split-diff-view",
-              "state": {
-                "aFile": ".obsidian/workspace.json",
-                "bFile": ".obsidian/workspace.json",
-                "aRef": ""
-              },
-              "icon": "diff",
-              "title": "Diff: workspace.json  (Working Tree)"
-            }
-          },
-          {
-            "id": "3d4238b1a62d795b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "conflict-files-obsidian-git.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "conflict-files-obsidian-git"
+              "icon": "lucide-file-text",
+              "title": "DBSCAN"
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -163,7 +109,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "40ed59899ef2c068",
@@ -279,23 +226,23 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3d4238b1a62d795b",
+  "active": "b62b6adfd7a1b10c",
   "lastOpenFiles": [
+    "Trabalhos Relacionados/DBSCAN.pdf",
+    "Trabalhos Relacionados (Entregar).md",
+    "Trabalhos Relacionados/Classification_tech.pdf",
+    "Aula 6.md",
+    "Aula 5 - Referencial Teórico - Exercicio (Entregar).md",
     "conflict-files-obsidian-git.md",
     "Trabalhos Relacionados/Turing_Test.pdf",
-    "Trabalhos Relacionados/DBSCAN.pdf",
-    "Trabalhos Relacionados/Classification_tech.pdf",
     "Trabalhos Relacionados/1986-rumelhart-2.pdf",
     "Trabalhos Relacionados",
     "Notas.md",
-    "Trabalhos Relacionados (Entregar).md",
-    "Aula 6.md",
     "Aula 1 - Estilo de Pesquisa.md",
     "Untitled.canvas",
     "Aula 3 - Tema.md",
     "Aula 4 - Plagio.md",
     "Aula 5 - Ferramentas.md",
-    "Aula 5 - Referencial Teórico - Exercicio (Entregar).md",
     "Aula 2 - Trabalhos Correlatos.md",
     "Welcome.md"
   ]
