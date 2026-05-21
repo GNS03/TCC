@@ -19,11 +19,19 @@ Já em 1957 o primeiro modelo de Redes Neurais Artificiais é desenvolvido por *
 
 ## 2.2 Algoritmos de Classificação
 
-Este artigo utilizará dois modelos de classificação, o DBSCAN (Density Based Spatial Clustering of Applications with Noise) e o MultiLayerPerceptron (MLP), para melhor explicar a funcionalidade e motivo de escolha desses modelos é preciso definir alguns conceitos de Machine Learning, como o Supervised e o Unsupervised Learning.
+Este artigo utilizará dois modelos de classificação, o DBSCAN (*Density Based Spatial Clustering of Applications with Noise*) e o *MultiLayerPerceptron* (MLP), para melhor explicar a funcionalidade e motivo de escolha desses modelos é preciso definir alguns conceitos de *Machine Learning*, como o *Supervised* e o *Unsupervised Learning*.
 
-Unsupervised
-	Clustering
-		DBSCAN (Martin Ester, Hans-Peter Kriegel, Jiirg Sander, Xiaowei Xu)
+Segundo ALNUAIMI *Unsupervised Learning* "envolve treinar a máquina sem saber a saída, utilizando apenas entradas. A máquina descobre padrões nos dadol.s e cria seus próprios clusters. Existem dois tipos principais e mais comuns de algoritmos de *Unsupervised Learning*, Clustering e Associação", neste trabalho será utilizado um modelo de *Clustering*.
+
+Ester diz que "existem dois tipos básicos de algoritmos de *Clustering* (Kaufman & Rousseeuw 1990): algoritmos de partição e hierárquicos." 
+
+"Algoritmos de partição, constrói uma partição de uma base de dados D, de n objetos em grupos de k *clusters*.", "a forma de todos os *clusters* criados pelo algoritmo de partição é convexa, o que é bastante restritivo", esse é o grande problema dos algoritmos de partição, eles não conseguem reconhecer *clusters* que não são convexos.
+
+"Algoritmos hierárquicos criam uma decomposição hierárquica de D. A decomposição hierárquica é representada por um dendrograma, uma árvore que repetidamente divide D em datasets menores até que que cada nó consista de apenas um objeto", "Até agora o principal problema dos algoritmos hierárquicos tem sido a dificuldade em definir o parâmetro de condição de término, um valor de Dmin que seja pequeno o suficiente para separar os *clusters* 'naturais' e ao mesmo tempo grande o suficiente para dividir *clusters* em duas partes.".
+
+Para resolver os problemas citados anteriormente por Ester, para os algorimos de partição e hierárquico, Ester desenvolveu o DBSCAN.
+
+DBSCAN é descrito por Ester como, "o algoritmo DBSCAN (*Density Based Spatial Clustering of Applications with Noise*) o qual é projetado para descobrir os *clusters* e ruídos em uma base de dados". O DBSCAN se diferencia dos outros algoritmos por não precisar de um número pré definido de *clusters* e por conseguir reconhecer *clusters* não convexos.
 
 Supervised
 	Perceptron
