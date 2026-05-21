@@ -19,7 +19,9 @@ Já em 1957 o primeiro modelo de Redes Neurais Artificiais é desenvolvido por *
 
 ## 2.2 Algoritmos de Classificação
 
+
 Este artigo utilizará dois modelos de classificação, o DBSCAN (*Density Based Spatial Clustering of Applications with Noise*) e o *MultiLayerPerceptron* (MLP), para melhor explicar a funcionalidade e motivo de escolha desses modelos é preciso definir alguns conceitos de *Machine Learning*, como o *Supervised* e o *Unsupervised Learning*.
+### 2.2.1 *Unsupervised Learning*
 
 Segundo ALNUAIMI *Unsupervised Learning* "envolve treinar a máquina sem saber a saída, utilizando apenas entradas. A máquina descobre padrões nos dadol.s e cria seus próprios clusters. Existem dois tipos principais e mais comuns de algoritmos de *Unsupervised Learning*, Clustering e Associação", neste trabalho será utilizado um modelo de *Clustering*.
 
@@ -29,17 +31,29 @@ Ester diz que "existem dois tipos básicos de algoritmos de *Clustering* (Kaufma
 
 "Algoritmos hierárquicos criam uma decomposição hierárquica de D. A decomposição hierárquica é representada por um dendrograma, uma árvore que repetidamente divide D em datasets menores até que que cada nó consista de apenas um objeto", "Até agora o principal problema dos algoritmos hierárquicos tem sido a dificuldade em definir o parâmetro de condição de término, um valor de Dmin que seja pequeno o suficiente para separar os *clusters* 'naturais' e ao mesmo tempo grande o suficiente para dividir *clusters* em duas partes.".
 
-Para resolver os problemas citados anteriormente por Ester, para os algorimos de partição e hierárquico, Ester desenvolveu o DBSCAN.
+Para resolver os problemas citados anteriormente por Ester, para os algoritmos de partição e hierárquico, Ester desenvolveu o DBSCAN.
 
-DBSCAN é descrito por Ester como, "o algoritmo DBSCAN (*Density Based Spatial Clustering of Applications with Noise*) o qual é projetado para descobrir os *clusters* e ruídos em uma base de dados". O DBSCAN se diferencia dos outros algoritmos por não precisar de um número pré definido de *clusters* e por conseguir reconhecer *clusters* não convexos.
+#### 2.2.1.1 DBSCAN
 
-Supervised
-	Perceptron
-		MultiLayerPerceptron (David E. Rumelhari, Geoffrey E. Hintont & Ronald J. Williams)
+DBSCAN é descrito por Ester como, "o algoritmo DBSCAN (*Density Based Spatial Clustering of Applications with Noise*) o qual é projetado para descobrir os *clusters* e ruídos em uma base de dados". O DBSCAN se diferencia dos outros algoritmos por não precisar de um número pré definido de *clusters* e por conseguir reconhecer *clusters* não convexos. Devido a essas vantagens o DBSCAN é um ótimo algoritmo de agrupamento quando não se conhece detalhadamente os dados ou precisa-se realizar uma abordagem genérica, capaz de se adaptar a múltiplos bancos de dados.
+
+### 2.2.2 *Supervised Learning*
+
+Segundo ALNUAIMI "Supervised Learning é uma técnica de *Machine Learning* que utiliza de dados rotulados para educar o sistema em previsões baseadas em seu treinamento. Esse processo quase imita o processo humano de aprendizagem.", o grande diferencial entre *Unsupervised* e *Supervised Learning* é que no primeiro os dados não são previamente rotulados e o modelo apenas os separa em grupos devido as características presentes nos dados, já no outro caso os dados precisam de rótulos pré-definidos para que o modelo aprenda que certas características definem um rotulo, o resultado pode ser tanto uma classe quanto contínuo como em casos de regressão.
+
+#### 2.2.2.1 Perceptron
+
+Segundo Rosenblatt, o criador do perceptron, em seu *report* de 1957 "*The Perceptron A Perceiving and Recognizing Automation*", "Podemos considerar o perceptron como uma caixa preta, com uma camera de TV como entrada, e uma impressora alfabética o um grupo de luzes como saída. Sua performance pode ser descrita como um processo de aprender a dar o mesmo sinal (saída) para todo estímulo óptico que pertence a mesma classe arbitrária.", essa é a proposta do perceptron, ele é treinado para dar a mesma saída para uma entrada todas as vezes, definindo assim, que aquela entrada pertence a aquela classe observações, porém, como citado anteriormente, o Perceptron é um modelo supervisionado e precisa que as entradas estejam rotuladas antes do treinamento.
+
+Outro ponto importante que foi citado anteriormente, é a incapacidade do Perceptron de resolver problemas não lineares, para resolver essa falha o próximo modelo foi desenvolvido, para ser uma evolução do Perceptron.
+
+##### 2.2.2.1.1 MultiLayerPerceptron
+
+Segundo Rumelhart e cia, em seu artigo de 1986, "Nós descrevemos um novo procedimento de aprendizagem, *back-propagation*, para redes que utilizam unidades similares a neurônios. O procedimento repetidamente ajusta os pesos das conexões da rede para minimizar a diferença entre a saída do modelo e a saída esperada. Como um resultado dos ajustes de pesos, unidades internas que não parte da camada de entrada ou saída, vem a representar características importantes do domínio da tarefa e os padrões da tarefa são capturados pela interação entre essas unidades. A habilidade de criar novas e úteis características diferencia o *back-propagation* dos métodos mais simples antigos.", a partir da pesquisa e desenvolvimento, realizados por Rumelhart e cia, para a criação do método de *back-propagation* as redes neurais acabaram evoluindo e o back-propagation foi utilizado e é até hoje para desenvolver um MultiLayerPerceptron, permitindo que essa rede neural consiga ter outputs não lineares, além de se adaptar muito melhor as características e nuâncias dos  dados de entrada.
 
 ## 2.3 Python aplicado ao Machine Learning
 
-(Adicionar aqui o terceiro trabalho relacionado — uso do Python)
+O Python foi criado e desenvolvido por Guido Van Rossum na década de 90, o python é uma linguagem dinamicamente tipada, interpretada, que tem como objetivo ser uma linguagem simples de aprender e ler, porém capaz de realizar muitas funções, por essas características o Python se tornou uma linguagem muito utilizada na área de dados, por matemáticos que utilizavam o matlab ou o R anteriormente, devido a facilidade e capacidade do python muitos desses profissionais e cientistas decidiram utilizá-lo como linguagem principal para processos com dados, como mineração de dados, tratamento de dados, desenvolvimento de modelos, criação de gráficos. Por isso, várias bibliotecas foram desenvolvidas pela comunidade ao longo dos anos para facilitar o tratamento de dados em Python, como o Pandas, NumPy, Polars, entre outros. Definindo assim, que o Python fosse a principal linguagem para tratamento de dados atualmente.
 
 
 

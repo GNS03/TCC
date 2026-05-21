@@ -42,8 +42,4 @@ modelo, dados, python, bibliotecas
   </table>
 
 - 2
-	- Grande Área: 
-		- Sub Área:
-			- Tecnologias:
-			  
 - 3

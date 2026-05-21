@@ -1,4 +1,4 @@
-1. Titulo Provisório
+s 1. Titulo Provisório
 	1. Comparação de modelos de machine learning para prever o numero de bebidas alcoólicas consumidas por dia, por pessoas com problema de fígado.
 	   
 2. Objetivo Geral (verbo infinitivo)
@@ -13,11 +13,12 @@
 	3. Python
    
 5. Para cada tecnologia citada no exercício 5.1, relacione os autores dos trabalhos relacionados entregues
+	1. 
    
 6. De acordo com os pilares (exec 4), relacione-os justificando sua utilização no desenvolvimento
 	- A área de Machine Learning tem evoluído cada vez mais com a utilização de linguagens de programação mais avançadas e computadores modernos, a partir dessas evoluções é possível utilizar ml para diversas tarefas, entre elas, classificar dados, porém há diversas maneiras de se alcançar um mesmo resultado, por isso é importante comparar a performance dos modelos diante de uma mesma base de dados.
 	  
-	- Algoritmos de classificação
+	- Algoritmos de classificação, são muito úteis em situações reais que precisam de um previsão, logo é necessário comparar os modelos selecionados para definir qual deles tem uma performance melhor com os dados escolhidos.
 	  
 	- Python é a linguagem principal, na esfera global, em questão de processamento de dados e machine learning, logo ao desenvolver um modelo de ml em python, é possível ter acesso a vários recursos, que facilitam na criação e utilização dos modelos, tanto teóricos (documentação, cursos e tutoriais, exemplos, entre outros), quanto práticos (simplicidade da linguagem, alta quantidade de bibliotecas auxiliares ao processo).
    
@@ -29,8 +30,8 @@
 	- Matriz de confusão
    
 8. Sobre as tecnologias citadas no 5.2 discuta sobre as limitações e como influenciam seu projeto e/ou desenvolvimento
-	- Limitação de modelos (dados em texto)
-	- Dados (limitações)
+	- Limitação de modelos (dados em texto, numéricos). Os dados precisam ser pre tratados para poderem ser usados no treinamento, além disso em modelos supervisionados, os dados precisam ser previamente classificados, para que o modelo funcione corretamente.
+	- Dados (limitações de mineração de dados). Um treinamento com poucos dados pode ser prejudicial ao modelo, já que o modelo precisa de um grande quantidade de dados para descobrir os padrões e realizar previsões com precisão.
    
 9. Como a arquitetura e tecnologias permitem manutenibilidade e escalabilidade do seu projeto no futuro
 	- Python facilita a manutenibilidade (código fácil de ler e modificar, permite a utilização de diversas bibliotecas) e escalabilidade
