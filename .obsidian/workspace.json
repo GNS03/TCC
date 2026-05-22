@@ -8,20 +8,61 @@
         "type": "tabs",
         "children": [
           {
-            "id": "b4eaf48f751f860f",
+            "id": "b62b6adfd7a1b10c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Trabalhos Relacionados (Entregar).md",
+                "file": "Aula 6.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Trabalhos Relacionados (Entregar)"
+              "title": "Aula 6"
+            }
+          },
+          {
+            "id": "4669b25c8acc1f65",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Trabalhos Correlatos.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Trabalhos Correlatos"
+            }
+          },
+          {
+            "id": "cd1844dfb551f18c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Referencial Teórico (Entregar).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Referencial Teórico (Entregar)"
+            }
+          },
+          {
+            "id": "6574aa892ea4e2e6",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Trabalhos Relacionados/Classification_tech.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "Classification_tech"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -194,24 +235,26 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b4eaf48f751f860f",
+  "active": "cd1844dfb551f18c",
   "lastOpenFiles": [
+    "Trabalhos Correlatos.md",
+    "Trabalhos Relacionados/Classification_tech.pdf",
+    "Referencial Teórico (Entregar).md",
+    "Trabalhos Relacionados/1986-rumelhart-2.pdf",
     "Aula 5 - Referencial Teórico - Exercicio (Entregar).md",
     "Aula 6.md",
+    "Metodologia.md",
     "Notas.md",
-    "Aula 5 - Ferramentas.md",
-    "Trabalhos Relacionados (Entregar).md",
-    "Trabalhos Relacionados/1986-rumelhart-2.pdf",
-    "Trabalhos Relacionados/rosenblatt-1957.pdf",
-    "Trabalhos Relacionados/Turing_Test.pdf",
-    "Trabalhos Relacionados/DBSCAN.pdf",
-    "Trabalhos Relacionados/Classification_tech.pdf",
-    "Trabalhos Relacionados/rosenblatt-1957.pdf.dl-33.abdm.part",
-    "conflict-files-obsidian-git.md",
-    "Aula 1 - Estilo de Pesquisa.md",
-    "Untitled.canvas",
     "Aula 3 - Tema.md",
     "Aula 4 - Plagio.md",
+    "Aula 5 - Ferramentas.md",
+    "Trabalhos Relacionados/rosenblatt-1957.pdf",
+    "Trabalhos Relacionados/DBSCAN.pdf",
+    "conflict-files-obsidian-git.md",
+    "Trabalhos Relacionados/Turing_Test.pdf",
+    "Trabalhos Relacionados",
+    "Aula 1 - Estilo de Pesquisa.md",
+    "Untitled.canvas",
     "Aula 2 - Trabalhos Correlatos.md",
     "Welcome.md"
   ]

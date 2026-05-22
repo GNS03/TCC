@@ -1,4 +1,4 @@
-s 1. Titulo Provisório
+1. Titulo Provisório
 	1. Comparação de modelos de machine learning para prever o numero de bebidas alcoólicas consumidas por dia, por pessoas com problema de fígado.
 	   
 2. Objetivo Geral (verbo infinitivo)

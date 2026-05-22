@@ -11,19 +11,19 @@ subárea, tecnologias: pelo menos 3 sub tópicos em cada)
 3. Escolha um conceito central (de qualquer um dos sub tópicos citados 
 no exercício 2) e escreva um parágrafo explicando o funcionamento em 
 nível conceitual juntamente com definição técnica e acrescente pelo 
-menos uma citação indireta. 
+menos uma citação indireta.
 
 2 - 
 Grande area: Machine Learning - 
 	Supervisionado e Não supervisionado - 
 	Sub Area: 
 		Algoritmos de classificação (descrever os modelos, sem cálculo, pseudocódigo) - 
-		Modelos de classificação (calculo) (2-3) - 
-		Comparar modelos de classificação  (como serão comparados)
+		Modelos de classificação (calculo) (2-3) - X, descrever mais
+		Comparar modelos de classificação  (como serão comparados) X
 	tecnologias: 
-		dados - 
+		dados - X
 		python - 
-		biblioteca
+		biblioteca X
 
 
 
