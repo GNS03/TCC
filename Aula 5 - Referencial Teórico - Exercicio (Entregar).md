@@ -13,7 +13,20 @@ no exercício 2) e escreva um parágrafo explicando o funcionamento em
 nível conceitual juntamente com definição técnica e acrescente pelo 
 menos uma citação indireta.
 
-2 - 
+- 1
+modelo, dados, python, bibliotecas
+
+| Ferramenta           | Justificativa                                                                                                                                                                                                                      |
+| -------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Python               | Familiaridade com o processo de desenvolvimento, presença de bibliotecas que agilizam e facilitam o processo de processamento dos dados.                                                                                           |
+| Numpy                | Biblioteca do python para manipulação de *arrays* e matrizes, necessária para realizar as multiplicações que ocorrem nos modelos.                                                                                                  |
+| Pandas               | Biblioteca muito útil para manipulação de dados, importação, formatação e exportação de dados.                                                                                                                                     |
+| Jupyter Notebook     | Ferramenta boa para códigos que utilizam dataframes e matrixes, permitindo que o desenvolvedor acompanhe a saída de cada linha de código separadamente.                                                                            |
+| PyCharm              | IDE utilizada por ser estável e facilmente configurável.                                                                                                                                                                           |
+| Dados (fígado)       | Os dados foram obtidos online e são interessantes para o projeto pois possui multiplas classes, podendo ser utilizado para testar a performance dos modelos desenvolvidos.                                                         |
+| DBSCAN               | Modelo de classificação *unsupervised* , o modelo se destaca por não precisar de parâmetros como n_clusters, podendo ser utilizado com quase qualquer base de dados e tendo resultados consistentes.                               |
+| MultiLayerPerceptron | Modelo de classificação *supervised* , o modelo utiliza de estruturas parecidas com neurônios humanos para realizar cálculos e comparações dos dados e assim classificá-los, sendo a base para a área de redes neurais atualmente. |
+- 2 
 Grande area: Machine Learning - 
 	Supervisionado e Não supervisionado - 
 	Sub Area: 
@@ -24,22 +37,5 @@ Grande area: Machine Learning -
 		dados - X
 		python - 
 		biblioteca X
-
-
-
-- 1
-modelo, dados, python, bibliotecas
-
-  <table>
-	<tr>
-	  <th>Ferramenta</th>
-	  <th>Justificativa</th>
-	</tr>
-	<tr>
-	  <td>Exemplo</td>
-	  <td>Texto</td>
-	</tr>
-  </table>
-
-- 2
-- 3
+	
+- 3 Algoritmos de classificação são algoritmos de machine learning que aprendem com os dados para identificar padrões, especificamente em algoritmos de classificação o objetivo é classificar os dados, de acordo com as características presentes neles, em diferentes classes, a partir dos padrões aprendidos pelo modelo na fase de treinamento, esse tipo de algoritmo precisa de dados numéricos e alguns dos modelos são limitados a um certo número de classes possíveis, por exemplo o Perceptron consegue apenas classificar em 2 classes, 0 e 1, limitando muito a sua funcionalidade em cenários reais.

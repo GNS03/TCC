@@ -39,7 +39,52 @@ Para resolver os problemas citados anteriormente por Ester, para os algoritmos d
 
 DBSCAN é descrito por Ester como, "o algoritmo DBSCAN (*Density Based Spatial Clustering of Applications with Noise*) o qual é projetado para descobrir os *clusters* e ruídos em uma base de dados". O DBSCAN se diferencia dos outros algoritmos por não precisar de um número pré definido de *clusters* e por conseguir reconhecer *clusters* não convexos. Devido a essas vantagens o DBSCAN é um ótimo algoritmo de agrupamento quando não se conhece detalhadamente os dados ou precisa-se realizar uma abordagem genérica, capaz de se adaptar a múltiplos bancos de dados.
 
-pseudocodigo
+*SetOfPoints* - toda a base de dados ou *cluster* descoberta na iteração anterior
+*Eps*, *MinPts* - são os parâmetros globais de densidade determinados manualmente pelo usuário 
+
+```
+ExpandCluster(SetOfPoints, Point, ClId, Eps, MinPts) : Boolean
+	seeds := SetOfPoints.regionQuery(Points, Eps);
+	IF seeds.size < MinPts THEN // No core point
+		SetOfPoint.changeClId(Point, NOISE);
+		RETURN False;
+	ELSE //all points in seeds are density reachable from Point
+		SetOfPoints.changeClIds(seeds, ClId);
+		seeds.delete(Point)
+		WHILE seeds <> Empty DO
+			currentP := seeds.first();
+			result := SetOfPoints.regionQuery(currentP, Eps);
+			IF result.size >= MinPts THEN
+				FOR i FROM 1 TO result.size DO
+					resultP : = result.get(i);
+					IF resultP.ClId IN {UNCLASSIFIED, NOISE} THEN
+						iF resultP.ClId = UNCLASSIFIED THEN
+							seeds.append(resultP);
+						END IF;
+						SetOfPoints.change.ClId(resultP, ClId);
+					END IF; // UNCLASSIFIED or NOISE
+				END FOR;
+			END IF; // result.size >= MinPts
+			seeds.delete(currentP);
+		END WHILE; // seeds <> empty
+		RETURN True;
+	END IF;
+END; // ExpandCluster				
+
+DBSCAN (SetOfPoints, Eps, MinPts)
+
+	//SetOfPoints is UNCLASSIFIED
+	CluterId := nextId(NOISE);
+	FOR i FROm 1 to SetOfPoints.size DO
+		Point := SetOfPoints.get(i);
+		IF Point.ClId = UNCLASSIFIED THEN
+			IF ExpandCluster(SetOfPoints, Point, ClusterId, Eps, MinPts) THEN
+				ClusterId := nextId(ClusterId)
+			END IF;
+		END IF;
+	END FOR;
+END; // DBSCAN
+```
 
 ### 2.2.2 *Supervised Learning*
 
