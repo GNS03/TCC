@@ -96,7 +96,63 @@ Segundo Rosenblatt, o criador do perceptron, em seu *report* de 1957 "*The Perce
 
 Outro ponto importante que foi citado anteriormente, é a incapacidade do Perceptron de resolver problemas não lineares, para resolver essa falha o próximo modelo foi desenvolvido, para ser uma evolução do Perceptron.
 
-pseudocódigo
+```
+CLASS Perceptron  
+  
+	FUNCTION initialize(max_iter = 2000)  
+		SET max_iter  
+		SET weight = 0  
+		SET bias = 0  
+		SET mse = 0  
+	END FUNCTION  
+  
+	FUNCTION fit(X, y,  
+		initial_weight = 0.5,  
+		initial_bias = 0,  
+		learning_rate = 0.1,  
+		early_stop = TRUE,  
+		early_stop_mse = 0.0001)  
+		n ← number of samples in y  
+		weight ← initial_weight  
+		bias ← initial_bias  
+		FOR iter FROM 0 TO max_iter - 1 DO    
+			// Prediction  
+			y_pred ← X * weight + bias  
+			// Error  
+			error ← y - y_pred  			  
+			// Mean Squared Error  
+			mse ← mean(error²)			  
+			// Early stopping condition  
+			IF mse < early_stop_mse AND early_stop = TRUE THEN  
+				PRINT iter, mse, weight, bias  
+				BREAK  
+			END IF  			  
+			// Gradients  
+			dw ← -(2 / n) * SUM(error * X)  
+			db ← -(2 / n) * SUM(error)  			  
+			// Update parameters  
+			weight ← weight - learning_rate * dw  
+			bias ← bias - learning_rate * db  			  
+			IF iter MOD (max_iter / 10) = 0 THEN  
+				PRINT iter, mse, weight, bias  
+			END IF  
+		END FOR  
+		SAVE weight  
+		SAVE bias  
+		SAVE mse  
+		RETURN y_pred  
+	END FUNCTION  
+	  
+	FUNCTION plot_perceptron(X, y_true, ys, y_pred)  
+		CREATE figure  
+		PLOT X versus y_true  
+		PLOT X versus y_pred  
+		SCATTER X versus ys  
+		ADD labels, title, legend, and grid  
+		DISPLAY plot  
+	END FUNCTION  
+END CLASS
+```
 ##### 2.2.2.1.1 MultiLayerPerceptron
 
 Segundo Rumelhart e cia, em seu artigo de 1986, "Nós descrevemos um novo procedimento de aprendizagem, *back-propagation*, para redes que utilizam unidades similares a neurônios. O procedimento repetidamente ajusta os pesos das conexões da rede para minimizar a diferença entre a saída do modelo e a saída esperada. Como um resultado dos ajustes de pesos, unidades internas que não parte da camada de entrada ou saída, vem a representar características importantes do domínio da tarefa e os padrões da tarefa são capturados pela interação entre essas unidades. A habilidade de criar novas e úteis características diferencia o *back-propagation* dos métodos mais simples antigos.". 
