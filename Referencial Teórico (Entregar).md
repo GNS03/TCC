@@ -168,4 +168,5 @@ O Python foi criado e desenvolvido por Guido Van Rossum na década de 90, o pyth
 Por essas características o Python se tornou uma linguagem muito utilizada na área de dados, por matemáticos que utilizavam o matlab ou o R anteriormente, devido a facilidade e capacidade do python muitos desses profissionais e cientistas decidiram utilizá-lo como linguagem principal para processos com dados, como mineração de dados, tratamento de dados, desenvolvimento de modelos, criação de gráficos. Por isso, várias bibliotecas foram desenvolvidas pela comunidade ao longo dos anos para facilitar o tratamento de dados em Python, como o Pandas, NumPy, Polars, entre outros. Definindo assim, que o Python fosse a principal linguagem para tratamento de dados atualmente.
 
 
+//TODO: add libraries, Pandas, MatPlotLib, Jupyter, Numpy, SkLearn
 
