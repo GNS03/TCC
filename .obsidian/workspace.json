@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "6113f6f17c9fddcd",
+        "id": "51294c4f5f231ab2",
         "type": "tabs",
         "children": [
           {
-            "id": "b4eaf48f751f860f",
+            "id": "04efdb2efebc0214",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": "Referencial Teórico (Entregar).md",
-                "bFile": "Referencial Teórico (Entregar).md",
-                "aRef": ""
+                "file": "Trabalhos Correlatos.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: Referencial Teórico (Entregar)  (Working Tree)"
+              "icon": "lucide-file",
+              "title": "Trabalhos Correlatos"
             }
           }
         ]
@@ -194,19 +194,22 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b4eaf48f751f860f",
+  "active": "04efdb2efebc0214",
   "lastOpenFiles": [
-    "Referencial Teórico (Entregar).md",
+    "Metodologia.md",
     "Trabalhos Correlatos.md",
+    "Trabalhos Correlatos/1-s2.0-S2405959521000205-main.pdf",
+    "Referencial Teórico (Entregar).md",
+    "Trabalhos Correlatos",
+    "Objetivos.md",
+    "Aula 6.md",
     "Aula 5 - Referencial Teórico - Exercicio (Entregar).md",
     "Aula 5 - Ferramentas.md",
-    "Aula 6.md",
-    "Metodologia.md",
-    "Trabalhos Relacionados/Turing_Test.pdf",
-    "Trabalhos Relacionados/rosenblatt-1957.pdf",
-    "Trabalhos Relacionados/DBSCAN.pdf",
-    "Trabalhos Relacionados/Classification_tech.pdf",
-    "Trabalhos Relacionados/1986-rumelhart-2.pdf",
+    "Referencial Teórico/Turing_Test.pdf",
+    "Referencial Teórico/rosenblatt-1957.pdf",
+    "Referencial Teórico/DBSCAN.pdf",
+    "Referencial Teórico/Classification_tech.pdf",
+    "Referencial Teórico/1986-rumelhart-2.pdf",
     "Aula 4 - Plagio.md",
     "Aula 2 - Trabalhos Correlatos.md",
     "Aula 1 - Estilo de Pesquisa.md",
