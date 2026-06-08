@@ -92,7 +92,7 @@ Segundo Mueller (2016), "Supervised Learning é uma técnica de *Machine Learnin
 
 #### 2.2.2.1 Perceptron
 
-Segundo Rosenblatt, o criador do perceptron, em seu *report* de 1957 "*The Perceptron A Perceiving and Recognizing Automation*", "Podemos considerar o perceptron como uma caixa preta, com uma camera de TV como entrada, e uma impressora alfabética o um grupo de luzes como saída. Sua performance pode ser descrita como um processo de aprender a dar o mesmo sinal (saída) para todo estímulo óptico que pertence a mesma classe arbitrária.", essa é a proposta do perceptron, ele é treinado para dar a mesma saída para uma entrada todas as vezes, definindo assim, que aquela entrada pertence a aquela classe observações, porém, como citado anteriormente, o Perceptron é um modelo supervisionado e precisa que as entradas estejam rotuladas antes do treinamento.
+Segundo Rosenblatt, o criador do perceptron, em seu *report* de 1957 "*The Perceptron A Perceiving and Recognizing Automation*", "Podemos considerar o perceptron como uma caixa preta, com uma camera de TV como entrada, e uma impressora alfabética o um grupo de luzes como saída.  Sua performance pode ser descrita como um processo de aprender a dar o mesmo sinal (saída) para todo estímulo óptico que pertence a mesma classe arbitrária.", essa é a proposta do perceptron, ele é treinado para dar a mesma saída para uma entrada todas as vezes, definindo assim, que aquela entrada pertence a aquela classe observações, porém, como citado anteriormente, o Perceptron é um modelo supervisionado e precisa que as entradas estejam rotuladas antes do treinamento.
 
 Outro ponto importante que foi citado anteriormente, é a incapacidade do Perceptron de resolver problemas não lineares, para resolver essa falha o próximo modelo foi desenvolvido, para ser uma evolução do Perceptron.
 
@@ -155,7 +155,9 @@ END CLASS
 ```
 ##### 2.2.2.1.1 MultiLayerPerceptron
 
-Segundo Rumelhart e cia, em seu artigo de 1986, "Nós descrevemos um novo procedimento de aprendizagem, *back-propagation*, para redes que utilizam unidades similares a neurônios. O procedimento repetidamente ajusta os pesos das conexões da rede para minimizar a diferença entre a saída do modelo e a saída esperada. Como um resultado dos ajustes de pesos, unidades internas que não parte da camada de entrada ou saída, vem a representar características importantes do domínio da tarefa e os padrões da tarefa são capturados pela interação entre essas unidades. A habilidade de criar novas e úteis características diferencia o *back-propagation* dos métodos mais simples antigos.". 
+Segundo Rumelhart e cia, em seu artigo de 1986, "Nós descrevemos um novo procedimento de aprendizagem, *back-propagation*, para redes que utilizam unidades similares a neurônios. O procedimento repetidamente ajusta os pesos das conexões da rede para minimizar a diferença entre a saída do modelo e a saída esperada. 
+
+Como um resultado dos ajustes de pesos, unidades internas que não parte da camada de entrada ou saída, vem a representar características importantes do domínio da tarefa e os padrões da tarefa são capturados pela interação entre essas unidades. A habilidade de criar novas e úteis características diferencia o *back-propagation* dos métodos mais simples antigos.". 
 
 A partir da pesquisa e desenvolvimento, realizados por Rumelhart e cia, para a criação do método de *back-propagation* as redes neurais evoluíram e o back-propagation foi utilizado e é até hoje para desenvolver o MultiLayerPerceptron, permitindo que essa rede neural consiga ter outputs não lineares, além de se adaptar muito melhor as características e nuâncias dos dados de entrada.
 
@@ -165,8 +167,17 @@ O Python foi criado e desenvolvido por Guido Van Rossum na década de 90, o pyth
 
 ### 2.3.1 Python aplicado ao Machine Learning
 
-Por essas características o Python se tornou uma linguagem muito utilizada na área de dados, por matemáticos que utilizavam o matlab ou o R anteriormente, devido a facilidade e capacidade do python muitos desses profissionais e cientistas decidiram utilizá-lo como linguagem principal para processos com dados, como mineração de dados, tratamento de dados, desenvolvimento de modelos, criação de gráficos. Por isso, várias bibliotecas foram desenvolvidas pela comunidade ao longo dos anos para facilitar o tratamento de dados em Python, como o Pandas, NumPy, Polars, entre outros. Definindo assim, que o Python fosse a principal linguagem para tratamento de dados atualmente.
+Por essas características o Python se tornou uma linguagem muito utilizada na área de dados, por matemáticos que utilizavam o matlab ou o R anteriormente, devido a facilidade e capacidade do python muitos desses profissionais e cientistas decidiram utilizá-lo como linguagem principal para processos com dados, como mineração de dados, tratamento de dados, desenvolvimento de modelos, criação de gráficos. 
 
+Por isso, várias bibliotecas foram desenvolvidas pela comunidade ao longo dos anos para facilitar o tratamento de dados em Python, como o Pandas, NumPy, Polars, entre outros. Definindo assim, que o Python fosse a principal linguagem para tratamento de dados atualmente.
+
+#### 2.3.1.1 Pandas
+
+A biblioteca pandas do Python é descrita como "uma ferramenta open-source de análise e manipulação de dados rápida, poderosa, flexível e fácil de usar, desenvolvida em Python" em seu site, o pandas possibilita a extração dados de diversos formatos de arquivos de forma simplificada, entre eles, .txt, .xls e .csv, popularmente utilizados em ferramentas de tratamento de dados como o Excel e MatLab. 
+
+Após a importação os dados são organizados automaticamente em um pandas.dataframe, uma estrutura tabelada, que separa os dados em linhas e as características em colunas, para facilitar a manipulação visualização dos dados. 
+
+Após realizadas as manipulações necessárias os dados podem facilmente ser exportadas como texto ou aquivos binários diretamente com o pandas.
 
 //TODO: add libraries, Pandas, MatPlotLib, Jupyter, Numpy, SkLearn
 
