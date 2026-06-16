@@ -1,0 +1,7 @@
+{
+	"nodes":[
+		{"id":"57e6913b3d1d4d62","x":-460,"y":-300,"width":860,"height":560,"type":"text","text":""},
+		{"id":"77d1b08e9b833c71","x":-132,"y":-280,"width":205,"height":60,"type":"text","text":"MultiLayerPerceptron"}
+	],
+	"edges":[]
+}

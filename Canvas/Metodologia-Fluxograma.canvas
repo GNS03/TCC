@@ -1,0 +1,22 @@
+{
+	"nodes":[
+		{"id":"562e3f2f41e722e9","type":"text","text":"Visão Geral de Etapas","x":-120,"y":-320,"width":250,"height":60},
+		{"id":"dabaf7e4ce66ca4b","type":"text","text":"Obter Dados ()","x":-480,"y":-180,"width":250,"height":60},
+		{"id":"edd16f74b674e131","type":"text","text":"Pré-processamento de Dados (se necessário)","x":-160,"y":-180,"width":250,"height":60},
+		{"id":"3b804cf5dd5e8535","type":"text","text":"Calcular Métricas (Acc, precisao, F1)","x":-160,"y":-40,"width":250,"height":60},
+		{"id":"8a3a769eb2d158e7","type":"text","text":"Treinar Modelos (Fluxograma)","x":160,"y":-40,"width":250,"height":60},
+		{"id":"79156ee57dea0fd7","type":"text","text":"Ánalise de Resultados","x":-480,"y":-40,"width":250,"height":60},
+		{"id":"d2420ecde141fe2e","type":"text","text":"Desenvolver Modelos\n- MLP\n- DBSCANS\n- Cálculos","x":160,"y":-223,"width":250,"height":147},
+		{"id":"bd3e9f39823ee573","x":-100,"y":80,"width":400,"height":400,"type":"file","file":"Canvas/Treinamento-DBSCANS.canvas"},
+		{"id":"fc77f7752acb7973","x":320,"y":80,"width":400,"height":400,"type":"file","file":"Canvas/Treinamento-MLP.canvas"}
+	],
+	"edges":[
+		{"id":"d5af0f268901c5d2","fromNode":"dabaf7e4ce66ca4b","fromSide":"right","toNode":"edd16f74b674e131","toSide":"left"},
+		{"id":"2d6136d70e27d433","fromNode":"edd16f74b674e131","fromSide":"right","toNode":"d2420ecde141fe2e","toSide":"left"},
+		{"id":"833232c7b617e617","fromNode":"d2420ecde141fe2e","fromSide":"bottom","toNode":"8a3a769eb2d158e7","toSide":"top"},
+		{"id":"0de810bede4b7579","fromNode":"8a3a769eb2d158e7","fromSide":"left","toNode":"3b804cf5dd5e8535","toSide":"right"},
+		{"id":"174b1cae8308b31e","fromNode":"3b804cf5dd5e8535","fromSide":"left","toNode":"79156ee57dea0fd7","toSide":"right"},
+		{"id":"6edfe595907c219a","fromNode":"8a3a769eb2d158e7","fromSide":"bottom","toNode":"bd3e9f39823ee573","toSide":"top"},
+		{"id":"72810a0ec169e4fa","fromNode":"8a3a769eb2d158e7","fromSide":"bottom","toNode":"fc77f7752acb7973","toSide":"top"}
+	]
+}

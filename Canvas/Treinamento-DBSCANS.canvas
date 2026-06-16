@@ -1,0 +1,11 @@
+{
+	"nodes":[
+		{"id":"c65ecc15b58109d5","x":-480,"y":-760,"width":820,"height":820,"type":"text","text":""},
+		{"id":"c63719b7392eeb73","x":-460,"y":-240,"width":780,"height":280,"type":"text","text":"Para Point em SetOfPoints:"},
+		{"id":"9a1664c0515d102b","x":-440,"y":-180,"width":740,"height":200,"type":"text","text":"Se o Point não estiver classificado:"},
+		{"id":"1bf1629c45a9cee5","x":-420,"y":-120,"width":700,"height":120,"type":"text","text":"Se ExpandCluster(SetOfPoints, Point, ClusterId, Eps, MinPts):\n\nClusterId = nextId(ClusterId)"},
+		{"id":"8fcc3d8881d7525c","x":-460,"y":-620,"width":780,"height":338,"type":"text","text":"ExpandCluster(SetOfPoints, Point, ClusterId, Eps, MinPts) : Boolean\n\n..."},
+		{"id":"de07433ce9bea31c","type":"text","text":"DBSCAN","x":-460,"y":-720,"width":112,"height":60}
+	],
+	"edges":[]
+}
