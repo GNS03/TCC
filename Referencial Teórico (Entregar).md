@@ -171,13 +171,20 @@ Por essas características o Python se tornou uma linguagem muito utilizada na �
 
 Por isso, várias bibliotecas foram desenvolvidas pela comunidade ao longo dos anos para facilitar o tratamento de dados em Python, como o Pandas, NumPy, Polars, entre outros. Definindo assim, que o Python fosse a principal linguagem para tratamento de dados atualmente.
 
-#### 2.3.1.1 Pandas
+#### 2.3.1.1 Numpy
+#### 2.3.1.2 Pandas
 
 A biblioteca pandas do Python é descrita como "uma ferramenta open-source de análise e manipulação de dados rápida, poderosa, flexível e fácil de usar, desenvolvida em Python" em seu site, o pandas possibilita a extração dados de diversos formatos de arquivos de forma simplificada, entre eles, .txt, .xls e .csv, popularmente utilizados em ferramentas de tratamento de dados como o Excel e MatLab. 
 
 Após a importação os dados são organizados automaticamente em um pandas.dataframe, uma estrutura tabelada, que separa os dados em linhas e as características em colunas, para facilitar a manipulação visualização dos dados. 
 
 Após realizadas as manipulações necessárias os dados podem facilmente ser exportadas como texto ou aquivos binários diretamente com o pandas.
+
+#### 2.3.1.3 MatPlotLib
+
+#### 2.3.1.4 Jupyter
+
+
 
 //TODO: add libraries, Pandas, MatPlotLib, Jupyter, Numpy, SkLearn
 
